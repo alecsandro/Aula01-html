@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+ 
+}
+
+.div-dir {
+  background-color: #1e90ff;
+  
+}
+
+button{
+border-radius: 25px;   
+border-color: #1e90ff;
+border-width: 1px;
+cursor: pointer;
+font-weight: bold;
+border-style: solid;
+}
+
+.imgparag{
+    display: flex;
+}
+.logoentrar{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.div-esq, .div-dir {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.div-dir p {
+  color: white;
+  font-size: 18px;
+}
+
+.btnazul{
+color:white;
+background-color: #1e90ff;
+height: 30px;
+width: 100%;
+margin-top: 20px;
+
+}
+.btnbranco{
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    color:#1e90ff;
+    background-color: white;
+}
+
+.logoentrar{
+    margin-bottom: 20px;
+}
+.botaoclass{
+    outline: none;
+   
+    width: 100%;
+    height: 20px;
+    border-style: solid;
+    
+}
+
+.pmaior {
+  font-size: 27px;
+}
+
+.div-principal {
+  background-color:#1e90ff;
+}
+
+.btnmenor{
+background-color: white;
+color:#1e90ff ;
+width: 70px;
+
+}
+.interna{   
+    width: 50%;
+}
