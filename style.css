@@ -24,6 +24,10 @@ font-weight: bold;
 border-style: solid;
 }
 
+.imginvert{
+    filter: invert(1);
+}
+
 .imgparag{
     display: flex;
 }
